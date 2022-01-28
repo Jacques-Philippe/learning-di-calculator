@@ -8,7 +8,8 @@
   "scripts": {
     "prettify": "dotnet csharpier src",
     "test": "dotnet test src",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "execute":"dotnet run --project src/Main"
   },
   "lint-staged": {
     "*.cs": "dotnet csharpier"
