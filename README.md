@@ -56,7 +56,7 @@ I will create two service providers for both `Adder` and `Multiplier`, and switc
    ```
 1. Install yarn
 1. Clone the repo
-1. Delete the .git directory
-1. Initialize a new git repo
-1. run `yarn prepare`
-1.
+1. run `yarn install`
+1. run `yarn prepare`.  
+   This will install husky precommit hooks. 
+
