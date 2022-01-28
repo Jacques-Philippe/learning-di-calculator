@@ -1,4 +1,4 @@
-namespace Calculator;
+namespace CalculatorService;
 
 public interface IAdderService
 {
