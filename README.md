@@ -48,13 +48,6 @@ I will create two service providers for both `Adder` and `Multiplier`, and switc
        2 / (1 / 3) = 6
     ```
 
-```
-Calculator
-   +--- Adder
-   |
-   +--- Multiplier
-```
-
 # Get started (dev)
 
 1. Install csharpier
