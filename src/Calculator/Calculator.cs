@@ -1,6 +1,9 @@
 ﻿namespace CalculatorService;
 
-public class Calculator
+/// <summary>
+/// A calculator capable of adding and multiplying
+/// </summary>
+public class Calculator : ICalculator
 {
     private IAdderService _Adder;
     private IMultiplierService _Multiplier;
